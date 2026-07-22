@@ -147,7 +147,49 @@
             }
         ],
         "menus": {
-            "explorer/context": [                
+            "commandPalette": [
+                {
+                    "command": "extension.addAngular2Component",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Directive",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Pipe",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Service",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Class",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Interface",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Route",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Enum",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Module",
+                    "when": "false"
+                },
+                {
+                    "command": "extension.addAngular2Resolver",
+                    "when": "false"
+                }
+            ],
+            "explorer/context": [
                 {
                     "submenu": "angular2files",
                     "group": "1_Angular2files"
