@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as rimraf from 'rimraf';
 import * as sinon from 'sinon';
 import * as chai from 'chai';
-import * as sinonChai from 'sinon-chai';
+import sinonChai from 'sinon-chai';
 import * as mocha from 'mocha';
 import * as path from 'path';
 import { AngularCli } from './../src/angular-cli';

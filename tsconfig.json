@@ -9,7 +9,9 @@
             "dom"
         ],
         "sourceMap": true,
-        "rootDir": "."
+        "rootDir": ".",
+        "types": ["node", "mocha", "chai", "sinon", "sinon-chai"],
+        "strict": false
     },
     "exclude": [
         "node_modules",

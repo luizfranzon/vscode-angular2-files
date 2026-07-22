@@ -2,7 +2,7 @@ import * as myExtension from '../src/extension';
 import * as vscodeTestContent from 'vscode-test-content';
 import * as sinon from 'sinon';
 import * as chai from 'chai';
-import * as sinonChai from 'sinon-chai';
+import sinonChai from 'sinon-chai';
 import * as mocha from 'mocha';
 import { FileContents } from './../src/file-contents';
 import { TemplateType } from './../src/enums/template-type';
